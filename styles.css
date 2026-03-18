@@ -6,16 +6,34 @@
   --dark-gray: #3D4042;
   --gray: #616368;
   --white: #FAFAFA;
+
   --color-background: var(--black);
-  --color-surface: var(--light-pink);
-  --color-primary: var(--pink);
-  --color-primary-dark: var(--dark-pink);
   --color-text: var(--white);
-  --color-text-soft: var(--light-pink);
-  --color-border: var(--gray);
+
+  --color-text-link: var(--white);
+  --color-text-link-visited: var(--light-pink);
+  --color-text-link-hover: var(--dark-pink);
+  --color-text-link-active: var(--pink);
 }
 
 body {
   background: var(--color-background);
   color: var(--color-text); /* Color del texto */
+}
+
+/* Links */
+a {
+  color: var(--color-text-link); /* link normal */
+  text-decoration: none;
+}
+a:visited {
+  color: var(--color-text-link-visited); /* link ya visitado */
+}
+a:hover {
+  color: var(--color-text-link-hover); /* al pasar el mouse */
+  text-decoration: underline;
+}
+a:active {
+  color: var(--color-text-link-active); /* mientras se pulsa */
+  text-decoration: none;
 }
