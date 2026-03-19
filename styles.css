@@ -79,12 +79,6 @@ a:active {
 
 /* Classes */
 
-.back-arrow {
-  display: inline-block;
-  font-size: 1.25rem;
-  line-height: 1;
-}
-
 .header-line {
   height: 0.5px;
   background-color: var(--color-line);
@@ -93,4 +87,10 @@ a:active {
 .footer-line {
   height: 3px;
   background-color: var(--color-line);
+}
+
+.back-arrow {
+  display: inline-block;
+  font-size: 1.25rem;
+  line-height: 1;
 }
