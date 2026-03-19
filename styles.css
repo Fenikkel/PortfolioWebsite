@@ -96,6 +96,18 @@ a:active {
   line-height: 1;
 }
 
+.blob-link {
+  /* width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  transition: transform 0.25s ease;
+}
+.blob-link:hover {
+  transform: scale(1.08);
+}
+
 /* Animations */
 
 @keyframes blobCodes {
