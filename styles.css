@@ -1,21 +1,31 @@
 :root {
+  --yellow: #FFDE03;
+  --blue: #0336FF;
+  --magenta: #FF0266;
+
   --light-pink: #F4B5FB;
   --pink: #DC86F6;
   --dark-pink: #AA55C2;
+
   --black: #202124;
-  --dark-gray: #3D4042;
+
+  --light-gray: #BEC1C5;
   --gray: #616368;
+  --dark-gray: #3D4042;
+
   --white: #FAFAFA;
 
   --color-background: var(--black);
   --color-text: var(--white);
+  --color-line: var(--light-gray);
 
   --color-text-link: var(--white);
-  --color-text-link-visited: var(--light-pink);
+  --color-text-link-visited: var(--light-gray);
   --color-text-link-hover: var(--dark-pink);
   --color-text-link-active: var(--pink);
 }
 
+/* General */
 body {
   background: var(--color-background);
   color: var(--color-text);
@@ -24,8 +34,8 @@ body {
 /* Page spaces */
 header {
   background-color: var(--dark-gray);
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+  /* padding-bottom: 2rem; */
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
@@ -33,6 +43,15 @@ header {
 main {
   background-color: var(--gray);
   padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+footer {
+  background-color: var(--dark-gray);
+
+  /* padding-top: 1rem; */
   padding-bottom: 2rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -66,4 +85,14 @@ a:active {
   display: inline-block;
   font-size: 1.25rem;
   line-height: 1;
+}
+
+.header-line {
+  height: 0.5px;
+  background-color: var(--color-line);
+}
+
+.footer-line {
+  height: 3px;
+  background-color: var(--color-line);
 }
