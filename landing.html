@@ -16,7 +16,10 @@
 
   <main>
     <p align="center">
+    <div
+      style="width: 220px; height: 220px; margin: 0 auto; overflow: hidden; border-radius: 60% 40% 55% 45% / 45% 55% 35% 65%;">
       <img src="images/pau.png" alt="Portrait of Pau Fenollosa">
+    </div>
     </p>
 
     <div style="margin-top: 1rem; max-width: 50rem;  margin: 0 auto;">
@@ -28,11 +31,20 @@
       </p>
     </div>
 
-    <ul>
-      <li><a href="curriculum.html">Curriculum</a></li>
-      <li><a href="codes.html">Codes</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-    </ul>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 3rem; flex-wrap: wrap;">
+      <div style="width: 150px; height: 150px; background: var(--yellow); animation: blobOne 6s ease-in-out infinite;">
+        <a href="curriculum.html">CV</a>
+      </div>
+
+      <div style="width: 150px; height: 150px; background: var(--blue); animation: blobTwo 7s ease-in-out infinite;">
+        <a href="portfolio.html">Portfolio</a>
+      </div>
+
+      <div
+        style="width: 150px; height: 150px; background: var(--magenta); animation: blobThree 12s ease-in-out infinite;">
+        <a href="codes.html">Codes</a>
+      </div>
+    </div>
   </main>
 
   <footer>
