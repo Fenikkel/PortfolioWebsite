@@ -21,7 +21,7 @@
 
   --color-background: var(--black);
   --color-text: var(--white);
-  --color-line: var(--light-gray);
+  --color-line: var(--gray);
 
   --color-text-link: var(--white);
   --color-text-link-visited: var(--light-gray);
@@ -51,17 +51,17 @@ body {
 
 /* Page spaces */
 header {
-  background-color: var(--dark-gray);
+  /* background-color: var(--dark-gray); */
   padding-top: 0.25rem;
 }
 
 main {
-  background-color: var(--gray);
+  /* background-color: var(--gray); */
   flex: 1;
 }
 
 footer {
-  background-color: var(--dark-gray);
+  /* background-color: var(--dark-gray); */
 }
 
 
@@ -94,7 +94,7 @@ a:active {
 }
 
 .footer-line {
-  height: 3px;
+  height: 2px;
   background-color: var(--color-line);
 }
 
