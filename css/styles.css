@@ -24,9 +24,9 @@
   --color-line: var(--gray);
 
   --color-text-link: var(--white);
-  --color-text-link-visited: var(--light-gray);
-  --color-text-link-hover: var(--dark-pink);
-  --color-text-link-active: var(--pink);
+  --color-text-link-visited: var(--white);
+  --color-text-link-hover: var(--teal);
+  --color-text-link-active: var(--teal);
 }
 
 * {
