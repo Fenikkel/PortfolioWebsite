@@ -12,13 +12,14 @@
   margin: 0;
   font-size: 21px;
   font-weight: bold;
-  font-family:  "Trebuchet MS", Verdana, "Segoe UI", Arial, sans-serif;
+  font-family: "Trebuchet MS", Verdana, "Segoe UI", Arial, sans-serif;
   /* font-family: monospace, Verdana, Segoe UI, Calibri, Helvetica, Arial, system-ui; */
   /* color: var(--dark-gray); */
   color: var(--black);
   /* color: var(--white); */
 }
 
+/* Big blob */
 .blob {
   width: 150px;
   height: 150px;
@@ -47,7 +48,8 @@ a.blob:hover {
   /* color: var(--white); */
   color: var(--dark-gray);
   /* color: var(--black); */
-  text-decoration: underline;
+  text-decoration: none;
+  /* underline; */
 }
 
 a.blob:active {
@@ -138,4 +140,24 @@ a.blob:active {
   100% {
     border-radius: 72% 28% 47% 53% / 39% 63% 37% 61%;
   }
+}
+
+/* Arrow blob */
+.arrow-blob {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.25s ease;
+
+  position: absolute;
+  left: 1.25rem;
+  top: 1rem;
+}
+
+.arrow-blob:hover {
+  transform: scale(1.16);
+  text-decoration: none;
 }

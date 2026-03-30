@@ -51,7 +51,7 @@ body {
 
 /* Page spaces */
 header {
-  /* background-color: var(--dark-gray); */
+  /* background-color: var(--blue); */
   padding-top: 0.25rem;
 }
 
@@ -87,6 +87,11 @@ a:active {
 
 
 /* Classes */
+.header-text {
+  margin: 0.25rem;
+  text-align: center;
+  font-size: 1.3em;
+}
 
 .header-line {
   height: 0.5px;
@@ -98,8 +103,7 @@ a:active {
   background-color: var(--color-line);
 }
 
-.back-arrow {
-  display: inline-block;
-  font-size: 1.25rem;
-  line-height: 1;
+.spacer {
+  height: 1.5rem;
+  /* background-color: var(--teal); */
 }
