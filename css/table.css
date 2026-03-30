@@ -14,6 +14,11 @@
 .cv-table th {
   font-weight: bold;
 }
+
+.cv-table tbody tr:nth-child(odd) {
+  background-color: var(--light-black);
+}
+
 .cv-table th:nth-child(1),
 .cv-table td:nth-child(1) {
   width: 15%;

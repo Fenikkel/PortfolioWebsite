@@ -11,7 +11,9 @@
   --pink: #DC86F6;
   --dark-pink: #AA55C2;
 
+  --light-black: #2A2C2F;
   --black: #202124;
+  --dark-black: #16171A;
 
   --light-gray: #BEC1C5;
   --gray: #616368;
@@ -43,7 +45,8 @@ body {
   height: 94vh;
   /* 100 sobreix */
 
-  width: min(100vw, 50rem); /* use the smaller of 100vw and 50rem as the element width */
+  width: min(100vw, 50rem);
+  /* use the smaller of 100vw and 50rem as the element width */
   margin: 1.25rem auto;
   box-sizing: border-box;
 
@@ -113,8 +116,7 @@ a:active {
   /* background-color: var(--teal); */
 }
 
-.tiny-up-arrow
-{
-  font-family: monospace; 
+.tiny-up-arrow {
+  font-family: monospace;
   font-size: 1.5em;
 }
