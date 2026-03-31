@@ -49,8 +49,8 @@ body {
 
   display: flex;
   flex-direction: column;
-  height: 94vh;
-  /* 100 sobreix */
+  min-height: calc(100vh - 2.5rem);
+  /* keep the 1.25rem top/bottom margins without clipping the gradient */
 
   width: min(100vw, 50rem);
   /* use the smaller of 100vw and 50rem as the element width */
