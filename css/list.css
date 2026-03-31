@@ -1,0 +1,5 @@
+.list {}
+
+.list li {
+    margin-bottom: 1.25rem; /* space between items */
+}

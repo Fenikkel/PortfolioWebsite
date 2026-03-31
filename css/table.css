@@ -5,61 +5,65 @@
   /* margin-left: 5rem;
   margin-right: 5rem; */
 }
+
 .cv-table th,
 .cv-table td {
   padding: 0.75rem;
   text-align: center;
   border-bottom: 1px solid var(--color-line);
 }
+
 .cv-table th {
   font-weight: bold;
+}
+
+.cv-table td {
+    height: 3.5rem;
 }
 
 .cv-table tbody tr:nth-child(odd) {
   background-color: var(--light-black);
 }
 
-.cv-table-experiece
-{
-  
-}
+.cv-table-experiece {}
 
 .cv-table-experiece th:nth-child(1),
 .cv-table-experiece td:nth-child(1) {
   width: 15%;
 }
+
 .cv-table-experiece th:nth-child(2),
 .cv-table-experiece td:nth-child(2) {
   width: 20%;
 }
+
 .cv-table-experiece th:nth-child(3),
 .cv-table-experiece td:nth-child(3) {
   width: 20%;
 }
+
 .cv-table-experiece th:nth-child(4),
 .cv-table-experiece td:nth-child(4) {
   width: 45%;
 }
 
-.date-cell
-{
-    font-size: 0.95em;
+.date-cell {
+  font-size: 0.95em;
 }
 
 
-.cv-table-side
-{
-  
-}
+.cv-table-side {}
 
 .cv-table-side th:nth-child(1),
 .cv-table-side td:nth-child(1) {
   width: 15%;
 }
+
 .cv-table-side th:nth-child(2),
 .cv-table-side td:nth-child(2) {
   width: 20%;
 }
+
 .cv-table-side th:nth-child(3),
 .cv-table-side td:nth-child(3) {
   width: 65%;
